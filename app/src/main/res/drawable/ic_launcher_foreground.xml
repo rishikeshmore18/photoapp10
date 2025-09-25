@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Camera body (yellow with orange outline) -->
+    <path
+        android:fillColor="#FFD700"
+        android:strokeColor="#FF8C00"
+        android:strokeWidth="3"
+        android:pathData="M24,32 L84,32 L84,76 L24,76 Z"
+        android:strokeLineJoin="round" />
+    
+    <!-- Viewfinder/prism housing (top raised section) -->
+    <path
+        android:fillColor="#FFD700"
+        android:strokeColor="#FF8C00"
+        android:strokeWidth="3"
+        android:pathData="M32,24 L76,24 L76,32 L32,32 Z"
+        android:strokeLineJoin="round" />
+    
+    <!-- Hot shoe/power button (top-left red accent) -->
+    <path
+        android:fillColor="#FF0000"
+        android:pathData="M36,20 L42,20 L42,24 L36,24 Z" />
+    
+    <!-- Main lens (large orange circle as path) -->
+    <path
+        android:fillColor="#FFD700"
+        android:strokeColor="#FF8C00"
+        android:strokeWidth="3"
+        android:pathData="M54,36 A18,18 0 1,1 54,72 A18,18 0 1,1 54,36 Z" />
+    
+    <!-- Lens inner circle as path -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M54,42 A12,12 0 1,1 54,66 A12,12 0 1,1 54,42 Z" />
+    
+    <!-- Flash/indicator light (bottom-left red accent) -->
+    <path
+        android:fillColor="#FF0000"
+        android:pathData="M30,60 L36,60 L36,66 L30,66 Z" />
+    
+    <!-- Camera strap attachment points as small circles -->
+    <path
+        android:fillColor="#FF8C00"
+        android:pathData="M24,40 A2,2 0 1,1 24,44 A2,2 0 1,1 24,40 Z" />
+    <path
+        android:fillColor="#FF8C00"
+        android:pathData="M84,40 A2,2 0 1,1 84,44 A2,2 0 1,1 84,40 Z" />
+    
+</vector>

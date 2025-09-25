@@ -1,0 +1,52 @@
+[
+  {
+    "id": "TC001",
+    "title": "signinwithgoogleauthentication",
+    "description": "Test the /auth/signin POST endpoint to verify successful Google Sign-In authentication and correct response structure including success status and account details."
+  },
+  {
+    "id": "TC002",
+    "title": "getallalbums",
+    "description": "Test the /albums GET endpoint to ensure it returns a list of albums with correct properties such as id, name, emoji, and favorite status."
+  },
+  {
+    "id": "TC003",
+    "title": "createalbum",
+    "description": "Test the /albums POST endpoint to verify that a new album can be created successfully with valid name and emoji, and returns the correct status code."
+  },
+  {
+    "id": "TC004",
+    "title": "updatealbum",
+    "description": "Test the /albums/{id} PUT endpoint to ensure an existing album can be updated correctly by id and returns a success status."
+  },
+  {
+    "id": "TC005",
+    "title": "deletealbum",
+    "description": "Test the /albums/{id} DELETE endpoint to verify that an album can be deleted by id and returns a success status."
+  },
+  {
+    "id": "TC006",
+    "title": "getphotosinalbum",
+    "description": "Test the /photos GET endpoint with albumId query parameter to ensure it returns the list of photos in the specified album with correct properties."
+  },
+  {
+    "id": "TC007",
+    "title": "addphototoalbum",
+    "description": "Test the /photos POST endpoint to verify that a photo file can be uploaded and added to a specified album successfully."
+  },
+  {
+    "id": "TC008",
+    "title": "togglephotofavoritestatus",
+    "description": "Test the /photos/{id}/favorite PUT endpoint to ensure the favorite status of a photo can be toggled correctly by photo id."
+  },
+  {
+    "id": "TC009",
+    "title": "startcloudsync",
+    "description": "Test the /backup/sync POST endpoint to verify that cloud synchronization with Google Drive starts successfully."
+  },
+  {
+    "id": "TC010",
+    "title": "searchalbumsandphotos",
+    "description": "Test the /search GET endpoint with query parameter to ensure it returns relevant search results for albums and photos."
+  }
+]
